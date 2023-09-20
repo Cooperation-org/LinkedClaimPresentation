@@ -1,5 +1,5 @@
 # LinkedClaimPresentation
-
+```
 Goal is to demo the flow of
 
   one guy makes a claim/VC credential, stores either public or private/wallet
@@ -8,3 +8,4 @@ Goal is to demo the flow of
 
   a third guy requests and views the two linked credentials together
    (or more than two)
+```
