@@ -1,0 +1,112 @@
+{
+  "content": [
+    {
+      "id": "9c6f42b6-68c7-4344-93be-7bff6b0b558d",
+      "connectionId": null,
+      "connectionAlias": null,
+      "connectionLabel": null,
+      "referenceId": "b5ec6c96-3bd7-4edc-abfd-bbc80fa1eb34",
+      "referenceType": "PROOF_TEMPLATE",
+      "referenceTypeId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceName": "RWOTexample",
+      "referenceImageId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceState": "REQUEST_SENT",
+      "timestamp": "2023-09-20T08:04:32.778002Z"
+    },
+    {
+      "id": "115f4168-af6f-4f96-804b-8eff70645f7f",
+      "connectionId": null,
+      "connectionAlias": null,
+      "connectionLabel": null,
+      "referenceId": "72222d2d-f88e-4d5d-addc-59f4ec054c71",
+      "referenceType": "PROOF_TEMPLATE",
+      "referenceTypeId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceName": "RWOTexample",
+      "referenceImageId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceState": "REQUEST_SENT",
+      "timestamp": "2023-09-20T08:02:43.167619Z"
+    },
+    {
+      "id": "a426f96c-8628-444c-9bb5-dfaa91fbc36e",
+      "connectionId": null,
+      "connectionAlias": null,
+      "connectionLabel": null,
+      "referenceId": "29bd841f-3d18-47f7-a329-b4f8a4f44b35",
+      "referenceType": "PROOF_TEMPLATE",
+      "referenceTypeId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceName": "RWOTexample",
+      "referenceImageId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceState": "VERIFIED",
+      "timestamp": "2023-09-20T07:42:42.466790Z"
+    },
+    {
+      "id": "5d89f00b-1dd4-47de-a88b-9d1b55dd1b31",
+      "connectionId": null,
+      "connectionAlias": null,
+      "connectionLabel": null,
+      "referenceId": "29bd841f-3d18-47f7-a329-b4f8a4f44b35",
+      "referenceType": "PROOF_TEMPLATE",
+      "referenceTypeId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceName": "RWOTexample",
+      "referenceImageId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceState": "PRESENTATION_RECEIVED",
+      "timestamp": "2023-09-20T07:42:42.234452Z"
+    },
+    {
+      "id": "b83cc752-c326-4e8b-a9fb-045fd47ddba3",
+      "connectionId": null,
+      "connectionAlias": null,
+      "connectionLabel": null,
+      "referenceId": "29bd841f-3d18-47f7-a329-b4f8a4f44b35",
+      "referenceType": "PROOF_TEMPLATE",
+      "referenceTypeId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceName": "RWOTexample",
+      "referenceImageId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceState": "REQUEST_SENT",
+      "timestamp": "2023-09-20T07:42:14.581163Z"
+    },
+    {
+      "id": "cd69471f-054e-4b45-8bc9-37a4f621b1ba",
+      "connectionId": "5e1ef8b8-4166-4f34-9f83-8557d72d348b",
+      "connectionAlias": "Maria Flower",
+      "connectionLabel": "Beta Tester",
+      "referenceId": "3ccaaa5b-22b0-45ee-97c4-b2fb2e1daccd",
+      "referenceType": "PROOF_TEMPLATE",
+      "referenceTypeId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceName": "RWOTexample",
+      "referenceImageId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceState": "VERIFIED",
+      "timestamp": "2023-09-20T07:40:07.961857Z"
+    },
+    {
+      "id": "aadf4d98-bef5-42ac-a7ae-f6a3539e7204",
+      "connectionId": "5e1ef8b8-4166-4f34-9f83-8557d72d348b",
+      "connectionAlias": "Maria Flower",
+      "connectionLabel": "Beta Tester",
+      "referenceId": "3ccaaa5b-22b0-45ee-97c4-b2fb2e1daccd",
+      "referenceType": "PROOF_TEMPLATE",
+      "referenceTypeId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceName": "RWOTexample",
+      "referenceImageId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceState": "PRESENTATION_RECEIVED",
+      "timestamp": "2023-09-20T07:40:07.610470Z"
+    },
+    {
+      "id": "1daf3471-ae69-45f1-9dab-53180d673fc2",
+      "connectionId": "5e1ef8b8-4166-4f34-9f83-8557d72d348b",
+      "connectionAlias": "Maria Flower",
+      "connectionLabel": "Beta Tester",
+      "referenceId": "3ccaaa5b-22b0-45ee-97c4-b2fb2e1daccd",
+      "referenceType": "PROOF_TEMPLATE",
+      "referenceTypeId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceName": "RWOTexample",
+      "referenceImageId": "62aa2b28-d77f-4030-bfe9-2fb64a900873",
+      "referenceState": "REQUEST_SENT",
+      "timestamp": "2023-09-20T07:39:44.202650Z"
+    }
+  ],
+  "number": 0,
+  "size": 20,
+  "totalElements": 8,
+  "totalPages": 1
+}
