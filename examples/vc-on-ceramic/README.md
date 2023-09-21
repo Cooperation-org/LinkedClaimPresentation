@@ -25,3 +25,11 @@ then
 npm install --save @composedb/client
 npm install --save -D @composedb/types
 ```
+
+to run
+
+```
+npx webpack serve
+
+npx webpack --mode production
+```

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Make a Claim</title>
+
+</head>
+<body>
+    <form action="/submit" method="post">
+        <h3>Make a Claim</h3>
+
+        <label for="ID">ID:</label>
+        <input type="text" name="ID" maxlength="1024" required><br><br>
+
+        <label for="claim">Claim:</label>
+        <input type="text" name="claim" maxlength="256" required><br><br>
+
+        <label for="effectiveDate">Effective Date:</label>
+        <input type="date" name="effectiveDate"><br><br>
+
+        <label for="statement">Statement:</label>
+        <textarea name="statement" maxlength="16384"></textarea><br><br>
+
+        <label for="object">Object:</label>
+        <input type="text" name="object" maxlength="1024"><br><br>
+
+        <label for="source">Source:</label>
+        <input type="text" name="sourceID"><br><br>
+
+        <label for="confidence">Confidence:</label>
+        <input type="number" step="0.01" name="confidence"><br><br>
+
+        <!-- Adjust the dropdown values according to the enum values for HowKnown -->
+        <label for="howKnown">How Known:</label>
+        <select name="howKnown" required>
+            <option value="FIRST_HAND">First Hand</option>
+            <option value="SECOND_HAND">Second Hand - someone told you</option>
+            <option value="WEB_DOCUMENT">Website - enter the URL as source</option>
+        </select><br><br>
+
+        <label for="dateObserved">Date Observed:</label>
+        <input type="date" name="dateObserved"><br><br>
+
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
+
