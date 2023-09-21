@@ -1,0 +1,38 @@
+type LinkedClaimVC @createModel( 
+     accountRelation: LIST, 
+     description: "Claim or attestation, possibly from 3rd party sources" ) 
+{ 
+    ID: String! @string(minLength: 1, maxLength: 1024)
+    claim: String! @string(minLength: 1, maxLength: 256)     
+    effectiveDate: Date 
+    statement: String @string(minLength: 1, maxLength: 16384) 
+    object: String @string(minLength: 1, maxLength: 1024) 
+    source: ClaimSource
+    confidence: Float
+    vcSig: String @string(minLength: 1, maxLength: 4096)
+}
+
+type ClaimSource 
+{
+    ID: String @string(minLength: 1, maxLength: 1024)
+    howKnown: HowKnown!
+    dateObserved: Date
+    author: String @string(minLength: 1, maxLength: 1024)
+    curator: String @string(minLength: 1, maxLength: 1024)
+    retrieveFrom: String @string(minLength: 1, maxLength: 1024)
+    digestMultibase: String @string(minLength: 1, maxLength: 256)
+}
+
+enum HowKnown {
+    FIRST_HAND
+    SECOND_HAND
+    WEB_DOCUMENT
+    VERIFIED_LOGIN
+    BLOCKCHAIN
+    SIGNED_DOCUMENT 
+    PHYSICAL_DOCUMENT
+    INTEGRATION
+    RESEARCH
+    OPINION
+    OTHER
+}

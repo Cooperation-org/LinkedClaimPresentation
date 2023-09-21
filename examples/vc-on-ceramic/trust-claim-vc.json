@@ -1,0 +1,47 @@
+{
+   "LinkedClaim": {
+      "@id": "http://cooperation.org/credentials#LinkedClaim",
+
+      "@context": {
+        "lc": "http://cooperation.org/credentials",
+
+        "id": "@id", 
+
+        "claim": {
+           "@id": "lc:claim"
+        },
+        "statement": {
+          "@id": "lc:statement"
+        },
+        "object": {
+          "@id": "lc:object"
+        },
+        "source": {
+          "@id": "lc:source",
+          "@type": "lc:ClaimSource"
+        },
+        "confidence": {
+          "@id": "lc:confidence"
+        },
+        "effectiveDate": {
+          "@id": "lc:effectiveDate",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "ClaimSource": {
+       "@id": "http://cooperation.org/credentials#ClaimSource",
+       "@context": {
+           "howKnown": { "@id": "lc:howKnown"},
+           "dateObserved": {
+             "@id": "lc:dateObserved",
+             "@type": "xsd:dateTime"
+           },
+           "author": { "@id": "lc:author", "@type": "@id"},
+           "curator": { "@id": "lc:curator", "@type": "@id"},
+           "retrieveFrom": { "@id": "lc:retrieveFrom", "@type": "@id"},
+           "digestMultibase": { "@id": "lc:sourceDigest"}
+       }
+    }
+}
