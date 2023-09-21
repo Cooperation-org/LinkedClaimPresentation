@@ -29,7 +29,6 @@ npm install --save -D @composedb/types
 to run
 
 ```
-npx webpack serve
+npm start
 
-npx webpack --mode production
 ```
